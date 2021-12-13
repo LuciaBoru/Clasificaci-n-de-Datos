@@ -1,4 +1,5 @@
-"""Se realizara la validación de ventas y busquedas por categoria.
+"""Se realizara la validación de ventas y busquedas por categoria para lograr indentificar que productos fueron los que tuvieron menos
+ventas y busquedas en la plataforma.
 
 by Lucia Cardenas Borunda
 """
@@ -89,7 +90,7 @@ def category():
     while category != 0:
         ##Aqui se mostrara los accesos a las funciones conforme los selecciones nos enviara a la función requerida
         if category == 1:
-            print("\n \n \n \n", "Los 5 productos con mayores ventas".center (60), "\n \n" )
+            print("\n \n \n \n", "Los 5 productos con menores ventas".center (60), "\n \n" )
             categorySold()
             break
         elif category == 2:

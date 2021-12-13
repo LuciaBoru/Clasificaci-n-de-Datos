@@ -1,4 +1,4 @@
-"""Archivo de autentificacion donde se contiene la función que realizara el registro de usuario y contraseña.
+"""Archivo de autentificacion donde se contiene la función que realizara el registro de usuario y contraseña, junto con el inicio de sesión.
 
 Se guardara sobre archivos para almacenar los usuarios y nombraremos el archivo database, en el cual sera llamado en ambas funciones
 ademas de abrirlos y poder leerlos.

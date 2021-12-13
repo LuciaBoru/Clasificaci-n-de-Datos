@@ -95,7 +95,7 @@ def sort():
             sold('high')
             break
         elif sort == 2:
-            print("\n \n \n \n", "Los 10 productos con mayor búsquedas".center (60), "\n \n" )
+            print("\n \n \n \n", "Los 10 productos con mayores búsquedas".center (60), "\n \n" )
             search('high')
             break
         elif sort == 3:
@@ -103,7 +103,7 @@ def sort():
             sold('less')
             break
         elif sort == 4:
-            print("\n \n \n \n", "Los 10 productos con menor búsquedas".center (60), "\n \n" )
+            print("\n \n \n \n", "Los 10 productos con menores búsquedas".center (60), "\n \n" )
             search('less')
             break
         #Si llegara a ingresar un numero de los que no estan admitidos, mostrara el mensaje de error.
